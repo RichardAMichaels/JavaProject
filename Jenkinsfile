@@ -15,7 +15,7 @@ pipeline
     {
       always
       {
-        archive 'dist/*.jar'
+        archiveArtifacts  'dist/*.jar'
       }
     }
 }
